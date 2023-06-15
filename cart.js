@@ -13,7 +13,7 @@ function ready() {
   }
 
   // Add to Cart
-  var addToCartButtons = document.querySelectorAll('.pro button');
+  var addToCartButtons = document.querySelectorAll('.pro ..fa-solid fa-x');
   for (var i = 0; i < addToCartButtons.length; i++) {
     addToCartButtons[i].addEventListener('click', addCartClicked);
   }
